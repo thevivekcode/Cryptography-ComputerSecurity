@@ -1,0 +1,10 @@
+Follow README instructions to run Crpytanalysis script:
+
+Run the following command on terminal:
+
+python CrpytAnalysis.py ["cipherText file location"] [Key Size]
+
+
+Ouput:
+
+ouput of the CrpytAnalysis will be saved in file "analysis".
