@@ -1,0 +1,26 @@
+CertificationAuthority :
+    CA_public_key
+    sender_private_key
+    receiver_private_key
+    public_directory
+
+RSA :
+    RSA_Encryption
+    RSA_decryption
+
+Vignere:
+    Vignere_Enctyption
+    Vignere_Decrytpion
+    vigenerKEY file to read Key
+
+sender:
+    Encrypts and sends message
+
+Receiver:
+    Decrypt and read message
+
+HOW to run:
+    run the shell file : run.sh
+
+OUTPUT:
+    On terminal screen: decrypted text
