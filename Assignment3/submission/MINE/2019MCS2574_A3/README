@@ -1,0 +1,18 @@
+This is a small simulation based on HEARTBLEED bug used to exploit the OpenSSL v1.01
+This is based on client-sever model where OpenSSL provides security over https webpages.
+
+HOW TO RUN:
+
+    RUN SERVER:
+        ***python server.py***
+
+    RUN CLIENT:        this is executed on differnt terminal. (Server must be running)
+        ***python client.py***
+
+        Now you can use terminal running client to communicate to server which is considered safe due to OpenSSL secure SSL/TSL.
+
+        ~Write your message in CLIENT terminal to communicate to SERVER
+        ~Wrtie *ATTACK* to switch to HEARTBLEED mode of attack.
+                ^ Enter message
+                ^ Enter Lager size to exploit the vulnerability
+        ~Write *BYE* to close the connection betweeen client and server.

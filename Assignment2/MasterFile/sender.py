@@ -8,10 +8,6 @@ import RSA
 import vignere
 import CertificationAuthority
 
-
-# In[20]:
-
-
 def getCApublicKey():
    with open("CA_public_key",'r') as f:
        CA = f.read()
